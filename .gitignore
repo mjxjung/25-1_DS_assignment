@@ -1,1 +1,22 @@
+# wandb 관련 로그 및 캐시 폴더 무시
+wandb/
+wandb/*
+
+# logs 폴더 무시
+logs/
+logs/*
+
+# tmp 폴더 무시
+tmp/
+tmp/*
+
+# 캐시 파일 무시
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+*.log
+
+# Jupyter Notebook 실행 중 생성되는 체크포인트 파일 무시
+.ipynb_checkpoints/
